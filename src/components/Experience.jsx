@@ -1,13 +1,13 @@
-import React from 'react';
+import React from "react";
 import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
-import nextjs from "../assets/nextjs.png";
-import graphql from "../assets/graphql.png";
+import axios from "../assets/axios.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
-
+import reduxImg from "../assets/redux.png";
+import typescript from "../assets/typescript.png"
 
 const Experience = () => {
   const techs = [
@@ -21,7 +21,7 @@ const Experience = () => {
       id: 2,
       src: css,
       title: "CSS",
-      style: "shadow-blue-500",
+      style: "shadow-cssblue",
     },
     {
       id: 3,
@@ -33,28 +33,36 @@ const Experience = () => {
       id: 4,
       src: reactImage,
       title: "React",
-      style: "shadow-blue-600",
+      style: "shadow-rblue",
     },
     {
       id: 5,
-      src: tailwind,
-      title: "Tailwind",
-      style: "shadow-sky-400",
+      src: typescript,
+      title: "TypeScript",
+      style: "shadow-tscript",
     },
     {
       id: 6,
-      src: nextjs,
-      title: "Next JS",
-      style: "shadow-white",
+      src: reduxImg,
+      title: "Redux",
+      style: "xl:bg-transparent shadow-iblue",
     },
+
     {
       id: 7,
-      src: graphql,
-      title: "GraphQL",
-      style: "shadow-pink-400",
+      src: axios,
+      title: "Axios",
+      style: "shadow-axioscolor",
     },
     {
       id: 8,
+      src: tailwind,
+      title: "Tailwind",
+      style: "shadow-tblue",
+    },
+
+    {
+      id: 9,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
@@ -90,4 +98,4 @@ const Experience = () => {
   );
 };
 
-export default Experience
+export default Experience;

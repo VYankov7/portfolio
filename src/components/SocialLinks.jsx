@@ -13,7 +13,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "https://www.linkedin.com/in/vladislav-yankov-205a96269/",
-      style: "rounded-tr-md",
+      style: "rounded-tr-md hover:bg-blue",
     },
     {
       id: 2,
@@ -23,6 +23,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "https://github.com/VYankov7",
+      style: "hover:bg-git"
     },
     {
       id: 3,
@@ -32,6 +33,8 @@ const SocialLinks = () => {
         </>
       ),
       href: "mailto:Vyankov02@gmail.com",
+      style: "hover:bg-gmail"
+
     },
     {
       id: 4,
@@ -41,7 +44,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "/resume.pdf",
-      style: "rounded-br-md",
+      style: "rounded-br-md hover:bg-resume",
       download: true,
     },
   ];
