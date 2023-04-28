@@ -24,7 +24,7 @@ function BackToTopButton() {
   return (
     <div>
       {backToTopButton && (
-        <button className='ring-2 ring-gray-600 ring-inset rounded-full hover:ring-gray-400 duration-200'
+        <button className='ring-2 ring-gray-600 ring-inset rounded-full hover:ring-gray-400 duration-200 text-gray-600 text-3xl hover:text-gray-400'
         style={{
           position: "fixed",
           bottom: "50px",
@@ -34,7 +34,7 @@ function BackToTopButton() {
           fontSize: "50px",
         }}
           onClick={scrollUp}>
-            <TiArrowUpOutline className='group text-gray-600 text-3xl m-2.5'/>
+            <TiArrowUpOutline className='  text-3xl m-2.5'/>
           </button>
       )}
     </div>
