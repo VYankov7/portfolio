@@ -24,7 +24,7 @@ function BackToTopButton() {
   return (
     <div>
       {backToTopButton && (
-        <button className='ring-2 ring-gray-600 ring-inset rounded-full hover:ring-gray-400 duration-200 text-gray-600 text-3xl hover:text-gray-400'
+        <button className='ring-2 ring-gray-600 ring-inset rounded-full hover:ring-gray-400 duration-200 text-gray-600 text-3xl hover:text-gray-400 shadow-2xl'
         style={{
           position: "fixed",
           bottom: "50px",
