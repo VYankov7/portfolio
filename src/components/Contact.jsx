@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen bg-gradient-to-b from-black to-gray-700 p-4 text-white"
+      className="w-full h-screen bg-gradient-to-b from-emerald-50 to-white dark:from-black dark:to-gray-700 p-4 dark:text-white"
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8">
@@ -19,21 +19,21 @@ const Contact = () => {
               type="text"
               name="name"
               placeholder="Enter your name"
-              className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+              className="p-2 bg-transparent border-2 rounded-md dark:text-white focus:outline-none"
             />
             <input
               type="email"
               name="email"
               placeholder="Enter your email"
-              className="my-2 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+              className="my-2 p-2 bg-transparent border-2 rounded-md dark:text-white focus:outline-none"
             />
             <textarea
               name="message"
               placeholder="Enter your message"
               rows="10"
-              className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+              className="p-2 bg-transparent border-2 rounded-md dark:text-white focus:outline-none"
             ></textarea>
-            <button className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
+            <button className="text-white bg-gradient-to-b from-gray-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
               Let's talk
             </button>
           </form>

@@ -47,7 +47,7 @@ const NavBar = () => {
   ];
 
   return (
-    <div className="flex justify-between items-center w-full h-20 px-4 text-black bg-white fixed dark:bg-black dark:text-white">
+    <div className="flex fixed z-50 justify-between items-center w-full h-20 px-4 text-black bg-white  dark:bg-black dark:text-white">
       <div>
         <Link
           to="about"

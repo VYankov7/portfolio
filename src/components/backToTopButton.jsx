@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { TiArrowUpOutline } from 'react-icons/ti'
+import { AiOutlineArrowUp } from 'react-icons/ai'
 
 function BackToTopButton() {
   const [backToTopButton, setbackToTopButton] = useState(false);
@@ -34,7 +34,7 @@ function BackToTopButton() {
           fontSize: "50px",
         }}
           onClick={scrollUp}>
-            <TiArrowUpOutline className='  text-3xl m-2.5'/>
+            <AiOutlineArrowUp className='  text-3xl m-2.5'/>
           </button>
       )}
     </div>
