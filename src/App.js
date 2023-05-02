@@ -9,6 +9,8 @@ import Contact from "./components/Contact";
 import BackToTopButton from "./components/backToTopButton";
 
 function App() {
+ 
+  // Loading Page
   const [loading, setLoading] = useState(true);
   const spinner = document.getElementById("spinner");
   if (spinner) {
@@ -19,17 +21,17 @@ function App() {
   }
   return (
     !loading && (
-    <div>
-      <NavBar />
-      <Home />
-      <About />
-      <Portfolio />
-      <Experience />
-      <Contact />
+      <div>
+        <NavBar />
+        <Home />
+        <About />
+        <Portfolio />
+        <Experience />
+        <Contact />
 
-      <SocialLinks />
-      <BackToTopButton />
-    </div>
+        <SocialLinks />
+        <BackToTopButton />
+      </div>
     )
   );
 }
