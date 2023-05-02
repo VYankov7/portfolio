@@ -24,17 +24,17 @@ function BackToTopButton() {
   return (
     <div>
       {backToTopButton && (
-        <button className='ring-2 ring-gray-600 ring-inset rounded-full hover:ring-gray-400 duration-200 text-gray-600 text-3xl hover:text-gray-400 shadow-2xl'
+        <button className=' duration-200 text-gray-600 text-3xl hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-600'
         style={{
           position: "fixed",
-          bottom: "50px",
-          right: "50px",
+          bottom: "40px",
+          right: "40px",
           height: "50px",
           width: "50px",
-          fontSize: "50px",
+
         }}
           onClick={scrollUp}>
-            <AiOutlineArrowUp className='  text-3xl m-2.5'/>
+            <AiOutlineArrowUp className=' bg-transparent text-3xl m-8'/>
           </button>
       )}
     </div>
