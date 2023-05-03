@@ -28,7 +28,7 @@ const Home = () => {
               className=" text-black dark:text-white w-fit px-6 py-3 my-2 flex items-center "
             >
 
-              <a
+              <button
                 href="#_"
                 className="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-gradient-to-r from-slate-300 dark:from-slate-300 dark:to-gray-600 rounded-md hover:bg-white group"
               >
@@ -39,7 +39,7 @@ const Home = () => {
                 <span className="group-hover:rotate-90 duration-300 group-hover:text-white"> 
                 <TbArrowBadgeRight className="ml-1" size={18} />
               </span>
-              </a>
+              </button>
               
             </Link>
           </div>
