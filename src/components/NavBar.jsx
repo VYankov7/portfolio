@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 
 const NavBar = () => {
   //DarkMode
-  const [theme, setTheme] = useState("dark");
+  const [theme, setTheme] = useState("light");
 
   useEffect(() => {
     if (theme === "dark") {
