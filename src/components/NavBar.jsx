@@ -53,7 +53,7 @@ const NavBar = () => {
           to="about"
           smooth
           duration={500}
-          className="text-5xl font-signature ml-2 cursor-pointer"
+          className="text-5xl font-signature ml-2 cursor-pointer max-sm:text-4xl md:text-4xl"
         >
           Vladislav Yankov
         </Link>

@@ -1,50 +1,60 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.png";
-import installNode from "../assets/portfolio/installNode.jpg";
+import gerichRest from "../assets/portfolio/gerichRest.png";
+import chatGPT3 from "../assets/portfolio/chatGPT3.png";
 import navbar from "../assets/portfolio/navbar.jpg";
 import reactSmooth from "../assets/portfolio/reactSmooth.jpg"
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
+import installNode from "../assets/portfolio/installNode.jpg";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
 
 const Portfolio = () => {
   
-
-  // Tui e onClick funkciqta
-  const openInNewTab = url => {
+  const openDemo = url => {
     console.log(url)
-    window.open(url.href, '_blank');
+    window.open(url.hrefDemo, '_blank');
+  };
+  
+  const openCode = url => {
+    console.log(url)
+    window.open(url.hrefCode, '_blank');
   };
 
 
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
-      href: "https://delicate-toffee-946104.netlify.app/",
+      src: gerichRest,
+      hrefDemo: "https://delicate-toffee-946104.netlify.app/",
+      hrefCode: "https://github.com/VYankov7/gerich-restaurant"
     },
     {
       id: 2,
-      src: reactParallax,
-      href: "https://google.com",
+      src: chatGPT3,
+      hrefDemo: "https://cheerful-pegasus-44127f.netlify.app/",
+      hrefCode: "https://github.com/VYankov7/gpt-3-react-project-for-practicing"
     },
     {
       id: 3,
       src: navbar,
-      href: "https://delicate-toffee-946104.netlify.app/",
-
+      hrefDemo: "https://delicate-toffee-946104.netlify.app/",
+      hrefCode: "https://github.com/VYankov7/gpt-3-react-project-for-practicing"
     },
     {
       id: 4,
-      src: reactSmooth
+      src: reactSmooth,
+      hrefDemo: "https://delicate-toffee-946104.netlify.app/",
+      hrefCode: "https://github.com/VYankov7/gerich-restaurant"
     },
     {
       id: 5,
       src: installNode,
-    
+      hrefDemo: "https://delicate-toffee-946104.netlify.app/",
+      hrefCode: "https://github.com/VYankov7/gerich-restaurant"
     },
     {
       id: 6,
-      src: reactWeather
+      src: reactWeather,
+      hrefDemo: "https://delicate-toffee-946104.netlify.app/",
+      hrefCode: "https://github.com/VYankov7/gerich-restaurant"
     },
   ]
 
@@ -58,12 +68,13 @@ const Portfolio = () => {
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
         {
-          portfolios.map(({id, src, href}) => (
+          portfolios.map(({id, src, hrefDemo, hrefCode}) => (
           <div key={id} className="shadow-lg shadow-gray-500 rounded-lg">
             <img src={src} alt="pic" className="rounded-md duration-200 hover:scale-105"/>
             <div className="flex items-center justify-center">
-              <button onClick={() => openInNewTab(href={href})}  className="w-1/2 px-5 py-3 m-4 duration-200 hover:scale-110 hover:text-gray-500">Demo</button>
-              <button className="w-1/2 px-5 py-3 m-4 duration-200 hover:scale-110 hover:text-gray-500">Code</button>
+              <button onClick={() => openDemo(portfolios.href={hrefDemo})}  className="w-1/2 px-5 py-3 m-4 duration-200 hover:scale-110 hover:text-gray-500">Demo</button>
+              <button onClick={() => openCode(portfolios.href={hrefCode})}  className="w-1/2 px-5 py-3 m-4 duration-200 hover:scale-110 hover:text-gray-500">Info</button>
+              <button onClick={() => openCode(portfolios.href={hrefCode})}  className="w-1/2 px-5 py-3 m-4 duration-200 hover:scale-110 hover:text-gray-500">Code</button>
             </div>
           </div>
           ))
