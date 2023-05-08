@@ -12,12 +12,16 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold text-black dark:text-white">
+            Hello!
+          </h2>
+          <br></br>
+          <h2 className="text-4xl sm:text-7xl font-bold text-black dark:text-white">
             I'm a Front End Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
             I have half year of experience building and desgining the front-end
             of web applications. Currently, I love to work on web applications
-            using technologies like React, Redux, TypeScript, TailwindCSS.
+            using technologies like React, Redux, TypeScript, TailwindCSS...
           </p>
 
           <div>
@@ -27,7 +31,6 @@ const Home = () => {
               duration={500}
               className=" text-black dark:text-white w-fit px-6 py-3 my-2 flex items-center "
             >
-
               <button
                 href="#_"
                 className="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-gradient-to-r from-slate-300 dark:from-slate-300 dark:to-gray-600 rounded-md hover:bg-white group"
@@ -36,11 +39,10 @@ const Home = () => {
                 <span className="relative w-full text-left transition-colors duration-100 ease-in-out group-hover:text-white">
                   Portfolio
                 </span>
-                <span className="group-hover:rotate-90 duration-300 group-hover:text-white"> 
-                <TbArrowBadgeRight className="ml-1" size={18} />
-              </span>
+                <span className="group-hover:rotate-90 duration-300 group-hover:text-white">
+                  <TbArrowBadgeRight className="ml-1" size={18} />
+                </span>
               </button>
-              
             </Link>
           </div>
         </div>
