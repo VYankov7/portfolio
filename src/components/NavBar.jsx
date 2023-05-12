@@ -1,25 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { RxSun } from "react-icons/rx";
-import { BsMoon } from "react-icons/bs";
 import { Link } from "react-scroll";
+import LightButton from "./LightDarkButton";
 
 const NavBar = () => {
-  //DarkMode
-  const [theme, setTheme] = useState("light");
-
-  useEffect(() => {
-    if (theme === "dark") {
-      document.documentElement.classList.add("dark");
-    } else {
-      document.documentElement.classList.remove("dark");
-    }
-  }, [theme]);
-
-  const handleThemeSwitch = () => {
-    setTheme(theme === "dark" ? "light" : "dark");
-  };
-
   // Navigation
   const [nav, setNav] = useState(false);
 
@@ -47,13 +31,18 @@ const NavBar = () => {
   ];
 
   return (
-    <div className="flex fixed z-50 justify-between items-center w-full h-16 px-4 from-emerald-50 to-white text-black bg-white  dark:bg-black dark:text-white">
+    <div className="flex fixed z-50 justify-between items-center w-full h-16 px-3 from-emerald-50 to-white text-black bg-white  dark:bg-black dark:text-white">
       <div>
+        <div className="inline">
+          {" "}
+          <LightButton />{" "}
+        </div>
+
         <Link
           to="about"
           smooth
           duration={500}
-          className="text-5xl font-signature ml-1 cursor-pointer max-sm:text-4xl md:text-4xl"
+          className="text-5xl font-signature ml-3 cursor-pointer max-sm:text-4xl md:text-4xl"
         >
           Vladislav Yankov
         </Link>
@@ -71,11 +60,18 @@ const NavBar = () => {
           </li>
         ))}
       </ul>
+
       <div
         onClick={() => setNav(!nav)}
-        className="cursor-pointer z-10 ml-14 text-gray-500 md:hidden"
+        className="cursor-pointer z-10 text-gray-500 md:hidden"
       >
-        {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
+        <div className="inline-block ">
+          {nav ? (
+            <FaTimes className="mr-2" size={30} />
+          ) : (
+            <FaBars className="mr-2" size={30} />
+          )}
+        </div>
       </div>
 
       {nav && (
@@ -101,13 +97,6 @@ const NavBar = () => {
           ))}
         </ul>
       )}
-      <button onClick={handleThemeSwitch}>
-        {theme === "dark" ? (
-          <RxSun className="hover:text-yellow-300 text-xl duration-200" />
-        ) : (
-          <BsMoon className="hover:text-gray-500 text-xl duration-200 " />
-        )}
-      </button>
     </div>
   );
 };

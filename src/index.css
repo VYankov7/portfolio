@@ -11,3 +11,9 @@
     font-family: 'Raleway', sans-serif;
   }
 }
+
+@layer base {
+  body {
+    @apply font-[Raleway]
+  }
+}

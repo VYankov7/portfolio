@@ -1,7 +1,7 @@
 import React from "react";
 import gerichRest from "../assets/portfolio/gerichRest.png";
 import chatGPT3 from "../assets/portfolio/chatGPT3.png";
-import navbar from "../assets/portfolio/navbar.jpg";
+import reactCalculator from "../assets/portfolio/reactCalculator.png";
 import reactSmooth from "../assets/portfolio/reactSmooth.jpg"
 import installNode from "../assets/portfolio/installNode.jpg";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
@@ -34,9 +34,9 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      src: navbar,
-      hrefDemo: "https://delicate-toffee-946104.netlify.app/",
-      hrefCode: "https://github.com/VYankov7/gpt-3-react-project-for-practicing"
+      src: reactCalculator,
+      hrefDemo: "https://yankov-react-calculator.netlify.app/",
+      hrefCode: "https://github.com/VYankov7/react-calculator"
     },
     {
       id: 4,
