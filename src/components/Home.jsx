@@ -7,15 +7,15 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b  from-emerald-50 to-white dark:from-black dark:to-gray-600 dark:text-white"
+      className="pt-[150px] w-full h-screen bg-gradient-to-b  from-emerald-100 to-white dark:from-black dark:to-gray-600 dark:text-white"
     >
-      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
+      <div className="max-w-[1024px] mx-auto px-8 grid sm:grid-cols-2 items-center justify-center h-full ">
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl sm:text-7xl font-bold text-black dark:text-white">
+          <h1 className=" text-4xl sm:text-5xl font-bold text-black dark:text-white">
             Hello!
-          </h2>
+          </h1>
           <br></br>
-          <h2 className="text-4xl sm:text-7xl font-bold text-black dark:text-white">
+          <h2 className="text-4xl sm:text-5xl font-bold text-black dark:text-white">
             I'm a Front End Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
@@ -47,10 +47,11 @@ const Home = () => {
           </div>
         </div>
         <div>
+          {}
           <img
             src={heroImage}
             alt="myPic"
-            className="rounded-3xl mx-auto w-2/3 md:w-full"
+            className="rounded-3xl mx-auto w-2/3 md:w-80"
           />
         </div>
       </div>

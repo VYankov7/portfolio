@@ -59,21 +59,20 @@ const Portfolio = () => {
   ]
 
   return (
-    <div name="portfolio" className="bg-gradient-to-b from-emerald-50 to-white dark:from-gray-900 dark:to-gray-600 dark:text-white md:h-screen">
+    <div name="portfolio" className="bg-gradient-to-b from-emerald-100 to-white dark:from-gray-900 dark:to-gray-600 dark:text-white md:h-screen">
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">Portfolio</p>
+          <p className="text-4xl font-bold inline border-b-4 border-emerald-300">Portfolio</p>
           <p className="py-6">Chek out some of my recent work right here:</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 pb-40">
         {
           portfolios.map(({id, src, hrefDemo, hrefCode}) => (
           <div key={id} className="shadow-lg shadow-gray-500 rounded-lg">
             <img src={src} alt="pic" className="rounded-md duration-200 hover:scale-105"/>
             <div className="flex items-center justify-center">
               <button onClick={() => openDemo(portfolios.href={hrefDemo})}  className="w-1/2 px-5 py-3 m-4 duration-200 hover:scale-110 hover:text-gray-500">Demo</button>
-              <button onClick={() => openCode(portfolios.href={hrefCode})}  className="w-1/2 px-5 py-3 m-4 duration-200 hover:scale-110 hover:text-gray-500">Info</button>
               <button onClick={() => openCode(portfolios.href={hrefCode})}  className="w-1/2 px-5 py-3 m-4 duration-200 hover:scale-110 hover:text-gray-500">Code</button>
             </div>
           </div>
