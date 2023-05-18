@@ -42,7 +42,7 @@ const NavBar = () => {
           to="about"
           smooth
           duration={500}
-          className="text-5xl font-signature ml-3 cursor-pointer max-sm:text-4xl md:text-4xl"
+          className="text-4xl font-signature ml-3 cursor-pointer max-sm:text-2xl max-md:text-3xl"
         >
          Portfolio of Vladislav Yankov
         </Link>
@@ -52,7 +52,7 @@ const NavBar = () => {
         {links.map(({ id, link }) => (
           <li
             key={id}
-            className="px-4 cursor-pointer capitalize font-medium dark:text-gray-300 hover:text-gray-500 hover:scale-105 duration-200"
+            className="px-4 cursor-pointer capitalize font-medium dark:text-gray-300 hover:text-gray-500 dark:hover:text-yellow-400 hover:scale-105 duration-200"
           >
             <Link to={link} smooth duration={500}>
               {link}

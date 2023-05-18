@@ -13,7 +13,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "https://www.linkedin.com/in/vladislav-yankov-205a96269/",
-      style: "rounded-tr-md hover:bg-blue",
+      style: "rounded-tr-md hover:bg-lblue",
     },
     {
       id: 2,

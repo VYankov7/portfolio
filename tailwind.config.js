@@ -6,7 +6,7 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {colors: {
-      blue: '#0077b5',
+      lblue: '#0077b5',
       git: '#171515',
       gmail: '#c71610',
       resume: '#00FF00',
@@ -15,10 +15,11 @@ module.exports = {
       tblue: '#44A8B3',
       iblue: '#764abc',
       axioscolor: '#5a24e5',
-      tscript: '#007acc'
+      tscript: '#007acc',
+      hred: '#ff3c00'
     }},
     fontFamily: {
-      signature: ['Saira Stencil One'],
+      signature: ['Bubblegum Sans'],
     }
   },
   plugins: [],

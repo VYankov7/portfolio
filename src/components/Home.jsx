@@ -7,26 +7,27 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="pt-[150px] w-full h-screen bg-gradient-to-b  from-emerald-100 to-white dark:from-black dark:to-gray-600 dark:text-white"
+      className="pt-[150px] max-sm:pt-[6rem] w-full h-screen bg-gradient-to-b  from-emerald-100 to-white dark:from-black dark:to-gray-600 dark:text-white"
     >
       <div className="max-w-[1024px] mx-auto px-8 grid sm:grid-cols-2 items-center justify-center h-full ">
         <div className="flex flex-col justify-center h-full">
-          <h1 className=" text-4xl sm:text-5xl font-bold text-black dark:text-white">
-          &lt;Hey There!&gt;
+          <h1 className=" text-xl sm:text-xl max-sm:text-sm font-bold text-hred dark:text-yellow-400">
+            &lt;Hey There!&gt;
           </h1>
           <br></br>
-          <h2 className="text-4xl sm:text-5xl font-bold text-black dark:text-white">
-            I'm a Front End Developer
+          <h2 className="text-4xl sm:text-5xl max-sm:text-3xl font-bold text-black dark:text-white">
+            I'm Vladislav, nice to meet you. Please take a look around.
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I have half year of experience building and desgining the front-end
-            of web applications. Currently, I love to work on web applications
-            using technologies like React, Redux, TypeScript, TailwindCSS...
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+            ducimus fuga earum. Alias, quo itaque quod facilis voluptatum quas
+            aliquid magnam nihil facere earum molestiae repellat perferendis
+            quaerat inventore maiores?
           </p>
 
           <div>
             <Link
-              to="portfolio"
+              to="about"
               smooth
               duration={500}
               className=" text-black dark:text-white w-fit px-6 py-3 my-2 flex items-center "
@@ -37,7 +38,7 @@ const Home = () => {
               >
                 <span className="w-48 h-48 rounded rotate-[-40deg] bg-gray-400 absolute bottom-0 left-0 -translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
                 <span className="relative w-full text-left transition-colors duration-100 ease-in-out group-hover:text-white">
-                  Portfolio
+                  More about me...
                 </span>
                 <span className="group-hover:rotate-90 duration-300 group-hover:text-white">
                   <TbArrowBadgeRight className="ml-1" size={18} />
@@ -51,7 +52,7 @@ const Home = () => {
           <img
             src={heroImage}
             alt="myPic"
-            className="rounded-3xl mx-auto w-2/3 md:w-80"
+            className="rounded-3xl mx-auto max-sm:w-[12rem] md:w-80"
           />
         </div>
       </div>
