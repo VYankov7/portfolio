@@ -12,7 +12,7 @@ const Home = () => {
       <div className="max-w-[1024px] mx-auto px-8 grid sm:grid-cols-2 items-center justify-center h-full ">
         <div className="flex flex-col justify-center h-full">
           <h1 className=" text-4xl sm:text-5xl font-bold text-black dark:text-white">
-            Hello!
+          &lt;Hey There!&gt;
           </h1>
           <br></br>
           <h2 className="text-4xl sm:text-5xl font-bold text-black dark:text-white">

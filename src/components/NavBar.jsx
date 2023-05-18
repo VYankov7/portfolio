@@ -18,7 +18,7 @@ const NavBar = () => {
     },
     {
       id: 3,
-      link: "portfolio",
+      link: "projects",
     },
     {
       id: 4,
@@ -44,7 +44,7 @@ const NavBar = () => {
           duration={500}
           className="text-5xl font-signature ml-3 cursor-pointer max-sm:text-4xl md:text-4xl"
         >
-          Vladislav Yankov
+         Portfolio of Vladislav Yankov
         </Link>
       </div>
 

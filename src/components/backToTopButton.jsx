@@ -27,14 +27,14 @@ function BackToTopButton() {
         <button className=' duration-200 text-gray-600 text-3xl hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-600'
         style={{
           position: "fixed",
-          bottom: "40px",
-          right: "40px",
+          bottom: "50px",
+          right: "2rem",
           height: "50px",
-          width: "50px",
+          width: "30px",
 
         }}
           onClick={scrollUp}>
-            <AiOutlineArrowUp className=' bg-transparent text-3xl m-8'/>
+            <AiOutlineArrowUp className=' bg-transparent text-3xl'/>
           </button>
       )}
     </div>

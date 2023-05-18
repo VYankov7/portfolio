@@ -18,7 +18,7 @@ module.exports = {
       tscript: '#007acc'
     }},
     fontFamily: {
-      signature: ['Great Vibes'],
+      signature: ['Saira Stencil One'],
     }
   },
   plugins: [],
