@@ -76,7 +76,7 @@ const Experience = () => {
     >
       <div className="max-w-screen-lg mx-auto flex flex-col justify-center w-full h-full dark:text-white">
         <div className="mt-14">
-          <p className="text-4xl font-bold border-b-4 inline border-emerald-300">
+          <p className="text-4xl font-bold border-b-4 inline border-lmyellow dark:border-yellow-400 font-signaturetwo">
             Experience
           </p>
           <p className="py-6">These are the technologies I've worked with</p>

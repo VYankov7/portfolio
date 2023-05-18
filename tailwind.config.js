@@ -16,10 +16,13 @@ module.exports = {
       iblue: '#764abc',
       axioscolor: '#5a24e5',
       tscript: '#007acc',
-      hred: '#ff3c00'
+      hred: '#ff3c00',
+      lmblue: '#89cff0',
+      lmyellow: '#ffc729'
     }},
     fontFamily: {
       signature: ['Bubblegum Sans'],
+      signaturetwo: ['Sen']
     }
   },
   plugins: [],

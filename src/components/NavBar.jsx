@@ -31,11 +31,10 @@ const NavBar = () => {
   ];
 
   return (
-    <div className="flex fixed z-50 justify-between items-center w-full h-16 px-3 from-emerald-50 to-white text-black bg-white  dark:bg-black dark:text-white">
+    <div className="flex fixed z-50 justify-between items-center w-full h-16 px-3 text-black bg-white  dark:bg-black dark:text-white">
       <div>
         <div className="inline">
-          {" "}
-          <LightButton />{" "}
+          <LightButton />
         </div>
 
         <Link
@@ -44,7 +43,7 @@ const NavBar = () => {
           duration={500}
           className="text-4xl font-signature ml-3 cursor-pointer max-sm:text-2xl max-md:text-3xl"
         >
-         Portfolio of Vladislav Yankov
+          Portfolio of Vladislav Yankov
         </Link>
       </div>
 
