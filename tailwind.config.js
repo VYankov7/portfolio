@@ -8,8 +8,8 @@ module.exports = {
     extend: {colors: {
       lblue: '#0077b5',
       git: '#171515',
-      gmail: '#c71610',
-      resume: '#00FF00',
+      gmail: '#ff0000',
+      resume: '#00e500',
       rblue: '#61DBFB',
       cssblue: '#264de4',
       tblue: '#44A8B3',
