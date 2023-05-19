@@ -81,13 +81,13 @@ const Projects = () => {
               <div className="flex items-center justify-center">
                 <button
                   onClick={() => openDemo((portfolios.href = { hrefDemo }))}
-                  className="w-1/2 px-5 py-3 m-4 duration-200 hover:scale-110 hover:text-gray-500"
+                  className="w-1/2 px-5 py-3 m-4 duration-200 hover:scale-110 font-bold hover:text-gray-400 dark:hover:text-yellow-400"
                 >
                   Demo
                 </button>
                 <button
                   onClick={() => openCode((portfolios.href = { hrefCode }))}
-                  className="w-1/2 px-5 py-3 m-4 duration-200 hover:scale-110 hover:text-gray-500"
+                  className="w-1/2 px-5 py-3 m-4 duration-200 hover:scale-110 font-bold hover:text-gray-400 dark:hover:text-yellow-400"
                 >
                   Code
                 </button>

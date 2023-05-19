@@ -47,12 +47,12 @@ const Home = () => {
             </Link>
           </div>
         </div>
-        <div>
+        <div className="">
           {}
           <img
             src={heroImage}
             alt="myPic"
-            className="rounded-3xl mx-auto max-sm:w-[12rem] md:w-80"
+            className="rounded-3xl mx-auto max-sm:w-[10rem] max-sm:mb-10 md:w-80"
           />
         </div>
       </div>
