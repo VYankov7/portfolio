@@ -67,12 +67,12 @@ const Projects = () => {
           <p className="text-4xl font-bold inline border-b-4 border-lmyellow dark:border-yellow-400 font-signaturetwo">
             Projects
           </p>
-          <p className="py-6">Chek out some of my recent work right here:</p>
+          <p className="py-6 text-lg font-signaturetwo">Chek out some of my recent work right here:</p>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 mb-40">
           {portfolios.map(({ id, src, hrefDemo, hrefCode }) => (
-            <div key={id} className="shadow-lg shadow-gray-500 rounded-lg">
+            <div key={id} className="shadow-lg shadow-gray-500 rounded-lg cursor-pointer">
               <img
                 src={src}
                 alt="pic"
