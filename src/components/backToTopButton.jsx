@@ -27,7 +27,7 @@ function BackToTopButton() {
         <button className=' duration-200 text-gray-600 text-3xl hover:text-gray-400 dark:text-gray-400 dark:hover:text-yellow-400'
         style={{
           position: "fixed",
-          bottom: "50px",
+          bottom: "60px",
           right: "2rem",
           height: "50px",
           width: "30px",

@@ -17,8 +17,8 @@ module.exports = {
       axioscolor: '#5a24e5',
       tscript: '#007acc',
       hred: '#ff3c00',
-      lmblue: '#89cff0',
-      lmyellow: '#ffc729'
+      lmblue: '#30405A',
+      lmyellow: '#315393'
     }},
     fontFamily: {
       signature: ['Bubblegum Sans'],
