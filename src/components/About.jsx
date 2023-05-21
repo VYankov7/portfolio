@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-screen bg-gradient-to-b from-yellow-100 to-white dark:from-gray-600 dark:to-gray-900 dark:text-white"
+      className="w-full h-screen bg-gradient-to-b from-sky-200 to-white dark:from-gray-600 dark:to-gray-900 dark:text-white"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -18,7 +18,7 @@ const About = () => {
 
         <div className="max-w-[1024px] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div className="sm:text-right ">
-            <p className="text-2xl font-signaturetwo">My name Vladislav Yankov, I'm 24 years old, based in Varna, Bulgaria. <span class="fi fi-bg"></span> </p>
+            <p className="text-2xl font-signaturetwo">My name is Vladislav Yankov, I'm 24 years old, based in Varna, Bulgaria. <span class="fi fi-bg"></span> </p>
             <br/>
             <p className="text-6xl max-sm:text-6xl font-bold ">I'm a Front End Developer</p>
           </div>

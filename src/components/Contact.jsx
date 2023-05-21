@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="max-sm:pt-[20rem] w-full h-screen bg-gradient-to-b from-white  to-yellow-300 dark:from-gray-900 dark:to-gray-600 p-4 dark:text-white"
+      className="max-sm:pt-[20rem] w-full h-screen bg-gradient-to-b from-white  to-sky-200 dark:from-gray-900 dark:to-gray-600 p-4 dark:text-white"
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8">
@@ -52,7 +52,7 @@ const Contact = () => {
                 Send
               </span>
             </button>
-            
+
           </form>
         </div>
       </div>

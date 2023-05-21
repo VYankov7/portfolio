@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
-import LightButton from "./LightDarkButton";
+import LightButton from "./buttons/LightDarkButton";
 
 const NavBar = () => {
   // Navigation

@@ -4,7 +4,7 @@ import { BsMoon } from "react-icons/bs";
 
 //DarkMode
 const LightButton = () => {
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("dark");
 
   useEffect(() => {
     if (theme === "dark") {
