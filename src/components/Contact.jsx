@@ -11,10 +11,16 @@ const Contact = () => {
           <p className="text-4xl font-bold inline border-b-4 border-lmyellow dark:border-yellow-400 font-signaturetwo">
             Contact
           </p>
-          <p className="text-lg font-signaturetwo py-6">Submit the form below to get in touch with me</p>
+          <p className="text-lg font-signaturetwo py-6">
+            Submit the form below to get in touch with me
+          </p>
         </div>
         <div className="flex justify-center items-center">
-          <form action="https://getform.io/f/55429dd5-65b2-4a44-85b0-57e2ad9eb828" method="POST" className="flex flex-col w-full md:w-1/2">
+          <form
+            action="https://getform.io/f/55429dd5-65b2-4a44-85b0-57e2ad9eb828"
+            method="POST"
+            className="flex flex-col w-full md:w-1/2"
+          >
             <input
               type="text"
               name="name"
@@ -36,14 +42,21 @@ const Contact = () => {
               className="p-2 bg-transparent border-2 rounded-md dark:text-white focus:outline-none placeholder-gray-700 focus:placeholder-gray-400"
               required="required"
             ></textarea>
-            <button className="text-white bg-gradient-to-b from-gray-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
-              Let's talk
+
+            <button
+              href="#_"
+              className="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-gradient-to-r from-slate-300 dark:from-slate-300 dark:to-gray-600 rounded-md hover:bg-white group"
+            >
+              <span className="w-48 h-48 rounded rotate-[-40deg] bg-gray-400 absolute bottom-0 left-0 -translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
+              <span className="relative w-full text-left transition-colors duration-100 ease-in-out group-hover:text-white">
+                Send
+              </span>
             </button>
+            
           </form>
         </div>
       </div>
     </div>
-    
   );
 };
 
