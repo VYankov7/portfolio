@@ -15,5 +15,6 @@
 @layer base {
   body {
     @apply font-[Raleway]
+    bg-black
   }
 }
