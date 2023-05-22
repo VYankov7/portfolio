@@ -7,22 +7,22 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-screen bg-gradient-to-b from-sky-200 to-white dark:from-gray-600 dark:to-gray-900 dark:text-white"
+      className=" w-full h-screen bg-gradient-to-b from-sky-200 to-white dark:from-gray-600 dark:to-gray-900 dark:text-white"
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+      <div className="max-w-screen-lg px-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-lmblue dark:border-yellow-400 font-signaturetwo">
+          <p className="text-4xl max-sm:text-2xl font-bold inline border-b-4 border-lmblue dark:border-yellow-400 font-signaturetwo">
             About
           </p>
         </div>
 
         <div className="max-w-[1024px] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div className="sm:text-right ">
-            <p className="text-2xl font-signaturetwo">My name is Vladislav Yankov, I'm 24 years old, based in Varna, Bulgaria. <span class="fi fi-bg"></span> </p>
+            <p className="text-2xl max-sm:text-xl font-signaturetwo">My name is Vladislav Yankov, I'm 24 years old, based in Varna, Bulgaria. <span class="fi fi-bg"></span> </p>
             <br/>
-            <p className="text-6xl max-sm:text-6xl font-bold ">I'm a Front End Developer</p>
+            <p className="text-6xl max-sm:text-4xl font-bold ">I'm a Front End Developer</p>
           </div>
-          <div className="text-xl">
+          <div className="text-xl max-sm:text-lg">
             I have half year of experience building and desgining the front-end
             of web applications. Currently, I love to work on web applications
             using technologies like React, Redux, TypeScript, TailwindCSS...
@@ -37,7 +37,7 @@ const About = () => {
               className="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-gradient-to-r from-slate-300 dark:from-slate-300 dark:to-gray-600 rounded-md hover:bg-white group"
             >
               <span className="w-48 h-48 rounded rotate-[-40deg] bg-gray-400 absolute bottom-0 left-0 -translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
-              <span className="relative w-full text-left transition-colors duration-100 ease-in-out group-hover:text-white">
+              <span className="max-sm:text-sm relative w-full text-left transition-colors duration-100 ease-in-out group-hover:text-white">
                 My Projects
               </span>
               <span className="group-hover:rotate-90 duration-300 group-hover:text-white">

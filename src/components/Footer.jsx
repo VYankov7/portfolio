@@ -4,9 +4,9 @@ import logolight from "../assets/logo.png";
 
 const Footer = () => {
   return (
-    <div className=" w-full h-[4rem] bg-white dark:bg-yellow-400 flex items-center justify-around">
+    <div className="w-full h-[4rem] bg-white dark:bg-yellow-400 flex items-center justify-around">
       
-      <p className="dark:text-black hover:text-gray-500 dark:hover:text-gray-600 justify-center text-center font-signature text-xl">
+      <p className="max-sm:text-sm dark:text-black hover:text-gray-500 dark:hover:text-gray-600 justify-center text-center font-signature text-xl">
         Handcrafted by me - 2023
       </p>
     
@@ -19,7 +19,7 @@ const Footer = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button className="flex items-center font-signature text-xl dark:hover:text-gray-600">
+          <button className="max-sm:text-sm flex items-center font-signature text-xl dark:hover:text-gray-600">
             Made with &nbsp;
             <SiTailwindcss /> &nbsp;
             Tailwind CSS

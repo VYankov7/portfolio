@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
 import LightButton from "./buttons/LightDarkButton";
+import logolight from "../assets/logo.png";
 
 const NavBar = () => {
   // Navigation
@@ -36,13 +37,15 @@ const NavBar = () => {
         <div className="inline">
           <LightButton />
         </div>
-
+        
         <Link
           to="about"
           smooth
           duration={500}
-          className="text-4xl font-signature ml-3 cursor-pointer max-sm:text-2xl max-md:text-3xl"
+          className="inline text-4xl font-signature ml-3 cursor-pointer max-sm:text-xl max-md:text-xl max-lg:text-xl"
         >
+          <img className="inline w-10 rounded-[30%70%] border-solid ring-2" src={logolight} alt="img"/>
+          &nbsp;
           Portfolio of Vladislav Yankov
         </Link>
       </div>

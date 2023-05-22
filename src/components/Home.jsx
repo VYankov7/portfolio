@@ -15,10 +15,10 @@ const Home = () => {
             &lt;Hey There!/&gt;
           </h1>
           <br></br>
-          <h2 className="text-4xl sm:text-5xl max-sm:text-3xl font-bold text-black dark:text-white">
+          <h2 className="text-4xl sm:text-5xl max-sm:text-2xl font-bold text-black dark:text-white">
           I'm Vladislav, nice to meet you. Please take a look around.
           </h2>
-          <p className="text-gray-500 py-4 max-w-md">
+          <p className="text-gray-500 py-4 max-w-md max-sm:text-sm">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
             ducimus fuga earum. Alias, quo itaque quod facilis voluptatum quas
             aliquid magnam nihil facere earum molestiae repellat perferendis
@@ -34,11 +34,11 @@ const Home = () => {
             >
               <button
                 href="#_"
-                className="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-gradient-to-r from-slate-300 dark:from-slate-300 dark:to-gray-600 rounded-md hover:bg-white group"
+                className="relative inline-flex items-center justify-start  px-6 py-3 overflow-hidden font-medium transition-all bg-gradient-to-r from-slate-300 dark:from-slate-300 dark:to-gray-600 rounded-md hover:bg-white group"
               >
                 <span className="w-48 h-48 rounded rotate-[-40deg] bg-gray-400 absolute bottom-0 left-0 -translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
-                <span className="relative w-full text-left transition-colors duration-100 ease-in-out group-hover:text-white">
-                  Learn more about me...
+                <span className="max-sm:text-sm max-sm:justify-center relative w-full text-left transition-colors duration-100 ease-in-out group-hover:text-white">
+                  More about me...
                 </span>
                 <span className="group-hover:rotate-90 duration-300 group-hover:text-white">
                   <TbArrowBadgeRight className="ml-1" size={18} />
@@ -52,7 +52,7 @@ const Home = () => {
           <img
             src={heroImage}
             alt="myPic"
-            className="rounded-3xl mx-auto max-sm:w-[10rem] max-sm:mb-10 md:w-80"
+            className="rounded-3xl mx-auto max-sm:w-[13rem] max-sm:mb-10 md:w-80"
           />
         </div>
       </div>
