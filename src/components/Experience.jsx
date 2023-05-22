@@ -82,7 +82,7 @@ const Experience = () => {
           <p className="text-lg max-sm:text-sm font-signaturetwo py-6 ">These are the technologies I've worked with</p>
         </div>
 
-        <div className="w-full grid grid-cols-2 max-sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0 max-sm:pb-20">
+        <div className="w-full grid grid-cols-3 max-sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0 max-sm:p-2">
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
