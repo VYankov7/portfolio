@@ -47,8 +47,7 @@ const Home = () => {
             </Link>
           </div>
         </div>
-        <div className="">
-          {}
+        <div>
           <img
             src={heroImage}
             alt="myPic"
