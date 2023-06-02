@@ -1,8 +1,8 @@
 import React from "react";
 import gerichRest from "../assets/portfolio/gerichRest.png";
 import chatGPT3 from "../assets/portfolio/chatGPT3.png";
-import reactCalculator from "../assets/portfolio/reactCalculator.png";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
+import reactCalculator from "../assets/portfolio/reactCalculator.jpg";
+import techShop from "../assets/portfolio/techShop.jpg";
 import installNode from "../assets/portfolio/installNode.jpg";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
 
@@ -39,9 +39,9 @@ const Projects = () => {
     },
     {
       id: 4,
-      src: reactSmooth,
-      hrefDemo: "https://delicate-toffee-946104.netlify.app/",
-      hrefCode: "https://github.com/VYankov7/gerich-restaurant",
+      src: techShop,
+      hrefDemo: "https://tiny-eclair-ce47a1.netlify.app/",
+      hrefCode: "https://github.com/VYankov7/OnlineShop",
     },
     {
       id: 5,
