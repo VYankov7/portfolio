@@ -4,7 +4,7 @@ import chatGPT3 from "../assets/portfolio/chatGPT3.png";
 import reactCalculator from "../assets/portfolio/reactCalculator.jpg";
 import techShop from "../assets/portfolio/techShop.jpg";
 import installNode from "../assets/portfolio/installNode.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import messenger from "../assets/portfolio/messenger.png"
 
 const Projects = () => {
   const openDemo = (url) => {
@@ -51,9 +51,9 @@ const Projects = () => {
     },
     {
       id: 6,
-      src: reactWeather,
-      hrefDemo: "https://delicate-toffee-946104.netlify.app/",
-      hrefCode: "https://github.com/VYankov7/gerich-restaurant",
+      src: messenger,
+      hrefDemo: "https://messenger-clone-brown-mu.vercel.app/",
+      hrefCode: "https://github.com/VYankov7/messenger-clone",
     },
   ];
 
