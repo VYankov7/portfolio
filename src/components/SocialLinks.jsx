@@ -43,7 +43,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/resume.pdf",
+      href: "/Vladislav Yankov - CV.pdf",
       style: "rounded-br-md hover:bg-resume",
       download: true,
     },
