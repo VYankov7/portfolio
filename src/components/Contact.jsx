@@ -12,7 +12,7 @@ const Contact = () => {
             Contact
           </p>
           <p className="text-lg font-signaturetwo py-6">
-            Submit the form below to get in touch with me
+          Feel free to contact me through the form below. I’d be happy to connect! :)
           </p>
         </div>
         <div className="flex justify-center items-center">

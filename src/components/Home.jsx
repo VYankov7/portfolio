@@ -16,13 +16,10 @@ const Home = () => {
           </h1>
           <br></br>
           <h2 className="text-4xl sm:text-5xl max-sm:text-2xl font-bold text-black dark:text-white">
-          I'm Vladislav, nice to meet you. Please take a look around.
+          I'm Vladislav, nice to meet you. 
           </h2>
-          <p className="text-gray-500 py-4 max-w-md max-sm:text-sm">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
-            ducimus fuga earum. Alias, quo itaque quod facilis voluptatum quas
-            aliquid magnam nihil facere earum molestiae repellat perferendis
-            quaerat inventore maiores?
+          <p className="text-gray-700 py-4 max-w-md max-xs:text-4xl dark:text-gray-300">
+          Please take a look around to explore my work, learn more about me, and discover the projects I've been working on.
           </p>
 
           <div>

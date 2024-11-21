@@ -79,7 +79,7 @@ const Experience = () => {
           <p className="text-4xl max-sm:text-2xl font-bold border-b-4 inline border-lmyellow dark:border-yellow-400 font-signaturetwo">
             Experience
           </p>
-          <p className="text-lg max-sm:text-sm font-signaturetwo py-6 ">These are the technologies I've worked with</p>
+          <p className="text-lg max-sm:text-sm font-signaturetwo py-6 ">There are some of the technologies I've worked with</p>
         </div>
 
         <div className="w-full grid grid-cols-3 max-sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0 max-sm:p-2">

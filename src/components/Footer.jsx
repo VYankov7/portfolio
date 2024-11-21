@@ -20,7 +20,7 @@ const Footer = () => {
           rel="noopener noreferrer"
         >
           <button className="max-sm:text-sm flex items-center font-signature text-xl dark:hover:text-gray-600 hover:text-gray-500">
-            Made with &nbsp;
+            Created with &nbsp;
             <SiTailwindcss /> &nbsp;
             Tailwind CSS
           </button>
