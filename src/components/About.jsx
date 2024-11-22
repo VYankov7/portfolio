@@ -20,10 +20,10 @@ const About = () => {
           <div className="sm:text-right ">
             <p className="text-2xl max-sm:text-xl font-signaturetwo">My name is Vladislav Yankov, I'm 26 years old, based in Varna, Bulgaria. <span class="fi fi-bg"></span> </p>
             <br/>
-            <p className="text-4xl max-sm:text-sm font-bold ">I’m a Developer with 7 months of experience working on personal practice projects, focusing on both front-end and back-end development.</p>
+            <p className="text-4xl max-sm:text-sm font-bold ">I'm a Developer with 7 months of experience working on personal practice projects, focusing on both front-end and back-end development.</p>
           </div>
           <div className="text-xl max-sm:text-sm">
-           After these seven months, I’m lucky to have started working in a real-world environment at 411 Marketing as a Browser Automation Specialist in October 2023. In this role, I’m using the technologies and the skills I’ve previously learned , including HTML, CSS, and JavaScript, to develop and maintain scripts that automate marketing processes. With over a year of real-world work experience, I’ve gained valuable skills, including working effectively in a team, mastering industry-specific tools and software, managing the time, and working under pressure to meet project deadlines  - skills that only a real-world work environment can provide. I’m excited to continue applying and expanding the skills I’ve learned and, of course, discover new opportunities for growth along the way. Below, you can see my projects and the technologies I used to create them.
+           After these seven months, I'm lucky to have started working in a real-world environment at 411 Marketing as a Browser Automation Specialist in October 2023. In this role, I'm using the technologies and the skills I've previously learned , including HTML, CSS, and JavaScript, to develop and maintain scripts that automate marketing processes. With over a year of real-world work experience, I've gained valuable skills, including working effectively in a team, mastering industry-specific tools and software, managing the time, and working under pressure to meet project deadlines  - skills that only a real-world work environment can provide. I'm excited to continue applying and expanding the skills I've learned and, of course, discover new opportunities for growth along the way. Below, you can see my projects and the technologies I used to create them.
             <Link
             to="projects"
             smooth
